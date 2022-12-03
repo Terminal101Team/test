@@ -25,7 +25,6 @@ jobs:
         key: ${{ secrets.PRIVATE_KEY }}
         port: 22
         script: |
-          whoami
           cd /home/maziar/app/test
           git pull origin main
           git status
